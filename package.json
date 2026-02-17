@@ -1,0 +1,32 @@
+{
+	"name": "sinistrao",
+	"version": "1.0.0",
+	"typescript-template": {
+		"base": "1.0.1",
+		"jasmine": "1.0.0",
+		"node": "1.0.1"
+	},
+	"scripts": {
+		"build": "tsc",
+		"start": "bun run ./src/index.ts",
+		"dev": "bun --watch run ./src/index.ts",
+		"doc": "typedoc --out docs/typedoc src",
+		"script": "bun scripts"
+	},
+	"dependencies": {
+		"discord.js": "^14.25.1",
+		"ts-appconfig": "^1.2.0",
+		"ts-async-bootstrap": "^2.1.0",
+		"ts-error-handler": "^1.0.2",
+		"ts-tiny-log": "^1.1.1"
+	},
+	"devDependencies": {
+		"@biomejs/biome": "2.4.2",
+		"@types/bun": "^1.3.9",
+		"@types/node": "^18.19.39",
+		"eslint": "^8.57.0",
+		"ts-node": "^10.9.2",
+		"typedoc": "^0.26.1",
+		"typescript": "~5.4.2"
+	}
+}
