@@ -1,11 +1,7 @@
 {
 	"name": "sinistrao",
+	"type": "module",
 	"version": "1.0.0",
-	"typescript-template": {
-		"base": "1.0.1",
-		"jasmine": "1.0.0",
-		"node": "1.0.1"
-	},
 	"scripts": {
 		"build": "tsc",
 		"start": "bun run ./src/index.ts",
